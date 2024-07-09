@@ -1,0 +1,21 @@
+// width
+$container-width: 1312px;
+
+// colors
+$glass-color: #1e1e1e5e;
+
+$primary: white;
+$secondary: black;
+
+$gray-1: #d6d6d6;
+$gray-2: #b4b3b3;
+
+// fonts
+$inter-font: "Inter", sans-serif;
+
+// effects
+%glass {
+    background: $glass-color;
+    backdrop-filter: blur(180px);
+    box-shadow: 2px 6px 16px #00000040;
+}
